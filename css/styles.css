@@ -15,25 +15,33 @@ body {
 .card {
   margin: 15% auto;
   overflow: hidden;
-  width: 100%;
-  height: 100vh;
+  width: 80%;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   background: url("/images/bg-pattern-card.svg");
   align-items: center;
+  border-radius: 10%;
 }
-.card img {
+.card .card-img {
+  margin-top: 30%;
+}
+.card .card-img img {
   border-radius: 100%;
   border: 4px solid #fff;
+}
+.card .card-name-and-location {
+  background: purple;
 }
 
 body {
   display: grid;
   place-items: center;
   min-height: 100vh;
-  background: black;
+  background: url("/images/bg-pattern-top.svg");
+  background: rgba(25, 161, 173, 0.2);
 }
 
 footer {
-  padding: 10 auto;
+  color: #000;
 }/*# sourceMappingURL=styles.css.map */
